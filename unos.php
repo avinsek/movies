@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<title>Unos novog filma</title>
+		<title>Obrazac za unos</title>	
+		<link href="css/ana.css" rel="stylesheet">
+		
 </head>
 	<body>
-		<div align="center"><strong><font face="geneva" color="black" size="5">Unos filmova</font></strong></div>
+		
 		<br/>
 		<div align="right"><a href=index.php>povratak na početnu stranicu</a></div>
 		<br/>
@@ -107,7 +109,7 @@ $ispis= new filmovi();
 $ispis->dohvatiBazu();
 
 echo '<table align="center" border="1px solid black" width="80%">';
-echo '<tr align="center" style="background-color:#ccccff;"><td><b>Slika</b></td><td><b>Naslov filma</b></td><td><b>Godina</b></td><td><b>Trajanje</b></td><td><b>Akcija</b></td></tr>';
+echo '<tr align="center";><td><b>Slika</b></td><td><b>Naslov filma</b></td><td><b>Godina</b></td><td><b>Trajanje</b></td><td><b>Akcija</b></td></tr>';
 //echo($_POST[id]);	
 $ispis->ispisiBazu();
 echo '</table>';

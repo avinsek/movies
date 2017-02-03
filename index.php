@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Početna stranica</title>
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/ana.css" rel="stylesheet">
-		<script src="js/jquery-3.1.1.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-	</head>
-	<body>
-		<br />
-<div id="naslov" align="center"><a href="/Algebra">BAZA FILMOVA</a></div>
+<html lang="en">
+<head>
+  <title>Baza filmova</title>
+
+<link rel="stylesheet" href="css/ana.css" media="all"/>
+</head>
+
+<body>
+
+<br />
+<div id="naslov" align="center" color="#FFFFFF"><a href="/Algebra">BAZA FILMOVA</a></div>
 <div align="right"><a href=unos.php>obrazac za unos novih filmova u bazu</a></div>
 <br />
 <?php
@@ -38,7 +38,7 @@
 	$slova[]="Z";
 
 //ISPIS TRAKE ZA ODABIR SLOVA
-echo '<div align="center">';	 
+echo '<div color="#FFFFFF" align="center">';	 
 foreach ($slova as $slovo)
 	//echo"| $slovo |";
 	echo '|	 <a href="?slovo='.$slovo.'">'.$slovo.'</a>		';
@@ -61,9 +61,7 @@ echo '</div>';
 
 
 ?>
-	<script src="js/ana.js"></script>
-	</body>
+
+
+</body>
 </html>
-
-
-

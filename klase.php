@@ -82,7 +82,7 @@ class filmovi
 			echo '	<td>'.$ro['naslov'].'</td>';
 			echo '	<td>'.$ro['godina'].'</td>';
 			echo '	<td>'.$ro['trajanje']." min".'</td>';
-			echo '	<td>[<a href=delete.php?id='.$ro['id_film'].'>obriši</a>]</td>';
+			echo '	<td color>[<a href=delete.php?id='.$ro['id_film'].'>obriši</a>]</td>';
 			echo '</tr>';	
 		}					
 		
